@@ -1,24 +1,24 @@
 class Prison < Formula
   desc "Run processes in a per-project micro-VM, isolated from your machine"
   homepage "https://github.com/gjazali/prison"
-  version "0.9.6"
+  version "0.9.7"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/gjazali/prison/releases/download/v#{version}/prison-v#{version}-darwin-arm64.tar.gz"
-      sha256 "99baa93f02c6bc392d652b2f8017a4733811cb9f04b0b94ce83b1d27adbf9280"
+      url "https://github.com/gjazali/prison/releases/download/v0.9.7/prison-v0.9.7-darwin-arm64.tar.gz"
+      sha256 "bf231706ee8a83d0990777035ed1e98724089b8ef62bf168188b7709d81817dd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/gjazali/prison/releases/download/v#{version}/prison-v#{version}-linux-amd64.tar.gz"
-      sha256 "e37784c12ab3a06fcb0ea8c43f77aa706bc48037b15f31007207d40324e4d1cf"
+      url "https://github.com/gjazali/prison/releases/download/v0.9.7/prison-v0.9.7-linux-amd64.tar.gz"
+      sha256 "9bf8dbf1df77ff26dd1e79a9a2268aa988353d00bede04510ba46ea37d140265"
     end
     on_arm do
-      url "https://github.com/gjazali/prison/releases/download/v#{version}/prison-v#{version}-linux-arm64.tar.gz"
-      sha256 "7c6179d01d7b5fce4b203184017e1d2d1dede3c21f4245d434dbd7d10949d9a5"
+      url "https://github.com/gjazali/prison/releases/download/v0.9.7/prison-v0.9.7-linux-arm64.tar.gz"
+      sha256 "4dd8782bf785b12eadc0507c899bea3f834db6d99bb88d00da9b6f0c473851f5"
     end
   end
 
